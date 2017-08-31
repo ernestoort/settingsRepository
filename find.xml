@@ -1,0 +1,40 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
+    <recentFileMasks>
+      <mask>*.spjs</mask>
+      <mask>*.spejs</mask>
+      <mask>*.specjs</mask>
+      <mask>*.spec</mask>
+      <mask>*.spec.j</mask>
+      <mask>*.g</mask>
+      <mask>*.gr</mask>
+      <mask>*.gra</mask>
+      <mask>*.gradl</mask>
+      <mask>*.gradle</mask>
+      <mask>*.js</mask>
+      <mask>*.java</mask>
+      <mask>*.jav</mask>
+      <mask>*.ja</mask>
+      <mask>*.j</mask>
+      <mask>*.sq</mask>
+      <mask>*.sql</mask>
+      <mask>t</mask>
+      <mask>ts</mask>
+      <mask>*ts</mask>
+      <mask>*.s</mask>
+      <mask>*.sp</mask>
+      <mask>*.spex</mask>
+      <mask>*.spe</mask>
+      <mask>*.spec.</mask>
+      <mask>*.spec.js</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
+    </recentFileMasks>
+  </component>
+</application>

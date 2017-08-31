@@ -1,0 +1,10 @@
+<templateSet group="JavaScript">
+  <template name="test" value="var chai = require('chai');&#10;var expect = chai.expect;&#10;var assert = chai.assert;&#10;var config = require('config');&#10;//Config files&#10;var serverAppContext = config.get(&quot;serverAppContext&quot;);&#10;&#10;describe(&quot;$testTile$&quot;, function () {&#10;    describe(&quot;$contextTitle$&quot;, function(){&#10;        it(&quot;$shouldMessage$&quot;,function(){});&#10;    });&#10;});" description="basic code for jasmine test" toReformat="false" toShortenFQNames="true">
+    <variable name="testTile" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="contextTitle" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="shouldMessage" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

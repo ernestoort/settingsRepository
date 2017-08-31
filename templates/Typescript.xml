@@ -1,0 +1,41 @@
+<templateSet group="Typescript">
+  <template name="class" value="import * as logger from 'log4js';&#10;export class $className$ {&#10;&#10;    private static _log = logger.getLogger(&quot;$className$&quot;);&#10;}" description="define a typescript class" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="func" value="public $functionName$( $params$):$return${&#10;    this.log.debug(&quot;Call to $functionName$&quot;); &#10;}" description="Defines a funtcion inside a class" toReformat="false" toShortenFQNames="true">
+    <variable name="functionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="expfun" value="import * as logger from 'log4js';&#10;&#10;export function $methodName$($parmas$): $return$ {&#10;    const log = logger.getLogger(&quot;$methodName$&quot;);&#10;    log.debug(&quot;Call to $methodName$&quot;);&#10;    return null;&#10;}" description="Defines a funtcion ax export" toReformat="false" toShortenFQNames="true">
+    <variable name="methodName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="parmas" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tspromise" value="return new Promise((resolve, reject) =&gt; {&#10;});" description="Add a promise" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tsthen" value=".then(($params$) =&gt; {})" description="Insert a then prmise with an arroy function" toReformat="false" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="arrow" value="($params$) =&gt; {&#10;}" description="Insert an arroy function" toReformat="false" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
