@@ -1,10 +1,10 @@
 <scheme name="Material Theme - Darker copy" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.25" />
+  <option name="FONT_SCALE" value="1.0833334" />
   <metaInfo>
     <property name="created">2017-06-09T08:53:57</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.1.4.0.0</property>
-    <property name="modified">2017-09-04T09:26:53</property>
+    <property name="modified">2017-09-22T20:05:18</property>
     <property name="originalScheme">_@user_Material Theme - Darker</property>
   </metaInfo>
   <font>
