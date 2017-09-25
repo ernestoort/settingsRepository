@@ -4,7 +4,7 @@
     <property name="created">2017-06-09T08:53:57</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.1.4.0.0</property>
-    <property name="modified">2017-09-22T20:54:13</property>
+    <property name="modified">2017-09-25T10:11:33</property>
     <property name="originalScheme">_@user_Material Theme - Darker</property>
   </metaInfo>
   <font>
@@ -16,7 +16,6 @@
     <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="Hack" />
-  <option name="CONSOLE_FONT_SIZE" value="16" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="c3e88d" />
     <option name="BORDER_LINES_COLOR" value="" />
