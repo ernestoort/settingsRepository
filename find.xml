@@ -4,11 +4,6 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*.gradle</mask>
-      <mask>*.java</mask>
-      <mask>*.jav</mask>
-      <mask>*.ja</mask>
-      <mask>*.sq</mask>
       <mask>*.sql</mask>
       <mask>t</mask>
       <mask>ts</mask>
@@ -34,6 +29,11 @@
       <mask>*.ht</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
+      <mask>*.p</mask>
+      <mask>*.puig</mask>
+      <mask>*.pui</mask>
+      <mask>*.pu</mask>
+      <mask>*.pug</mask>
     </recentFileMasks>
   </component>
 </application>
