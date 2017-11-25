@@ -5,7 +5,7 @@
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*ts</mask>
       <mask>*.s</mask>
@@ -17,7 +17,6 @@
       <mask>*.jso</mask>
       <mask>*.json</mask>
       <mask>*/</mask>
-      <mask>*</mask>
       <mask>*.h</mask>
       <mask>*.ht,m</mask>
       <mask>*.ht,</mask>
@@ -29,14 +28,15 @@
       <mask>*.pug</mask>
       <mask>*.pu</mask>
       <mask>*.p</mask>
-      <mask>*.js</mask>
+      <mask>*.java</mask>
+      <mask>*.jav</mask>
+      <mask>*.ja</mask>
       <mask>*.ts</mask>
       <mask>*.t</mask>
-      <mask>*.j</mask>
+      <mask>*</mask>
       <mask>*.</mask>
-      <mask>*.ja</mask>
-      <mask>*.jav</mask>
-      <mask>*.java</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
