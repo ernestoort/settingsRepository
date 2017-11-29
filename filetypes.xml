@@ -3,10 +3,11 @@
     <extensionMap>
       <mapping pattern="workOrder" type="PLAIN_TEXT" />
       <mapping pattern="SumController" type="PLAIN_TEXT" />
+      <mapping pattern=".ratpack" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="user-grouo-service" type="PLAIN_TEXT" />
-      <mapping ext="jdl" type="PLAIN_TEXT" />
       <mapping ext="opts" type="PLAIN_TEXT" />
+      <mapping ext="jdl" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
